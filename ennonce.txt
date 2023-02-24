@@ -1,0 +1,50 @@
+Pour régler un conflit : 
+étape 1 choisir le texte/code qu’on veut garder, 
+étape 2 commit dans le master, 
+étape 3 retourner vers la branche, 
+étape 4 modifier pour le choix final, 
+étape 5 revenir sur master, 
+étape 6 merge
+
+créer le dossier exo5, se placer dessus
+git init
+créer un fichier index.html et lui donner une structure de base
+vérifier le status
+commit 
+créer une branche HTML et se positionner dedans 
+Modifier le texte de la balise title pour “Exercice 5”
+vérifier le status
+commit 
+Se positionner sur la branche master 
+modifier le texte de la balise pour “Exercice 6”
+commit
+merge la branche HTML 
+résoudre le conflit 
+merge la branche HTML 
+créer une branche CSS et se positionner dedans
+ajouter une balise style 
+modifier le texte de la balise title pour “Exercice 5 a du style !” 
+commit
+aller sur master, modifier le texte de la balise title pour “Exercice 6 a du style”
+commit
+merge la branche CSS
+régler le conflit 
+merge la branche CSS
+couper les branches inutiles 
+créer un dépot distant exo5 sur GITHUB
+lier le dépot distant a votre dépot local
+pushé la branche master en ligne
+créer une branche JS et se positionner dedans
+créer un fichier script.js et mettez une alerte dedans
+mettre une balise script dans index.html avec une source vers script.js 
+commit 
+sur la branche master, ajouter une balise script
+à l’intérieur de la balise script, mettez une alerte
+commit 
+pushé la branche JS en ligne
+aller sur master et merge
+régler le conflit (si il y'en a)
+merge
+vérifier les logs 
+couper la branche inutile 
+afficher les branches
